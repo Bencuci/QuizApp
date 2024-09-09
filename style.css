@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: "Karla", sans-serif;
+    background-image: url("/images/bcp.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    padding: 1.6em 4.6875em;
+    max-width: 800px;
+}
+
+div.start {
+    height: 90vh;
+    text-align: center;
+    align-content: center;
+}
+
+div.quiz-container {
+    color: #293264;
+    display: flex;
+    flex-direction: column;
+}
+
+div.buttons-container {
+    display: flex;
+    gap: .5em;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div.results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+div.start h1 {
+    margin: 0;
+    font-size: 3.5rem;
+}
+
+div.quiz-container h2 {
+    margin: .3em 0 .7em;
+    font-size: 1rem;
+    letter-spacing: .02em;
+}
+
+div.quiz-container h3 {
+    font-size: 1rem;
+}
+
+div.start p {
+    margin-top: .5em;
+    margin-bottom: 2em;
+}
+
+hr{
+    margin-top: 1em;
+    border: .79px solid #DBDEF0;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    color: #293264;
+    cursor: initial;
+}
+
+div.start button {
+    color: #F5F7FB;
+    background-color: #4D5B9E;
+    border: none;
+    padding: 1.3em 4em;
+    border-radius: 17px;
+    font-weight: 600;
+    letter-spacing: .1em;
+}
+
+div.buttons-container button {
+    padding: 0.35em 1em;
+    font-size: .7rem;
+    border: .79px solid #A8B5ED;
+    background-color: #F5F7FB;
+    border-radius: 8px;
+}
+
+div.buttons-container button.selected {
+    background-color: #D6DBF5;
+    border-color: #D6DBF5;
+}
+
+div.buttons-container button.wrong {
+    color: #293264;
+    background-color: #F8BCBC;
+}
+
+div.buttons-container button.correct {
+    background-color: #94D7A2;
+    border-color: #94D7A2;
+}
+
+button.check-answer,
+button.play-again {
+    align-self: center;
+    background-color: #4D5B9E;
+    color: #F5F7FB;
+    border: none;
+    margin-top: .6em;
+    padding: 0.7em 1.4em;
+    border-radius: 10px;
+}
+
+
+
+@media (max-width: 550px) {
+    body {
+        align-items: unset;
+    }
+    
+    main {
+        padding: 1.6em 3.6875em;
+    }
+}
+
+@media (max-width: 465px) {
+    body {
+        align-items: unset;
+    }
+    
+    main {
+        padding: 1.6em 2.6875em;
+    }
+    
+    div.quiz-container h2 {
+        font-size: 1rem;
+        letter-spacing: -0.03em;
+        margin: .8em 0 .4em;
+    }
+    
+    div.buttons-container button {
+        font-size: .80rem;
+    }
+    
+    hr {
+        margin-top: 1.2em;
+    }
+}
