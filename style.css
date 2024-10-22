@@ -95,6 +95,7 @@ div.buttons-container button {
     border: .79px solid #A8B5ED;
     background-color: #F5F7FB;
     border-radius: 8px;
+    color: black;
 }
 
 div.buttons-container button.selected {
