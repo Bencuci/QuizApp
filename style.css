@@ -17,7 +17,6 @@ body {
 
 main {
     padding: 1.6em 4.6875em;
-    max-width: 800px;
 }
 
 div.start {
@@ -157,5 +156,29 @@ button.play-again {
     
     hr {
         margin-top: 1.2em;
+    }
+}
+
+@media (min-width: 768px) {
+    div.quiz-container h2 {
+        margin: .4em 0 .7em;
+        font-size: 1.4rem;
+        letter-spacing: .02em;
+    }
+
+    div.buttons-container button {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    div.quiz-container h2 {
+        margin: .5em 0 .9em;
+        font-size: 1.7rem;
+        letter-spacing: .02em;
+    }
+
+    div.buttons-container button {
+        font-size: 1.3rem;
     }
 }
