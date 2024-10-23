@@ -98,7 +98,8 @@ div.buttons-container button {
     color: black;
 }
 
-div.buttons-container button.selected {
+div.buttons-container button.selected,
+div.buttons-container button:hover {
     background-color: #D6DBF5;
     border-color: #D6DBF5;
 }
