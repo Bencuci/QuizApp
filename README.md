@@ -6,3 +6,5 @@ npm run build # or watch to rebuild on change
 open index.html
 ```
 Prefer using Vite
+
+# Live deploy: https://ben-quiz.netlify.app/
