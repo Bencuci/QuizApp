@@ -7,4 +7,4 @@ open index.html
 ```
 Prefer using Vite
 
-# Live deploy: https://ben-quiz.netlify.app/
+### Live deploy: https://ben-quiz.netlify.app/
